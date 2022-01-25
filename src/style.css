@@ -1,11 +1,11 @@
 html {
   box-sizing: border-box;
-  font-size: 62.5%; /*1rem = 10 px*/
+  font-size: 62.5%; /* 1rem = 10 px */
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -23,7 +23,7 @@ h2 {
 }
 
 .container {
-  width: min(90%, 120rem);
+  width: 110rem;
   margin: 0 auto;
 }
 
