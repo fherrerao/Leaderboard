@@ -55,6 +55,10 @@ h2 {
   height: 3rem;
 }
 
+.btn-submit:hover {
+  cursor: pointer;
+}
+
 .scores {
   list-style: none;
   font-size: 1.4rem;
