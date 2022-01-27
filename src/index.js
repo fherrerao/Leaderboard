@@ -1,8 +1,6 @@
 import './style.css';
 import Players from './functions.js';
 
-Players.createNewGame();
-
 const btnRefresh = document.querySelector('#refresh');
 btnRefresh.addEventListener('click', Players.getPlayer);
 

@@ -24,7 +24,7 @@ export default class Players {
   };
 
   static addNewPlayer = async () => {
-    const url = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${this.idGame}/scores/`;
+    const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/0FZjRBVl8F9k1xZJg0ir/scores/';
     if (inputName.value === '' || inputScore.value === '') {
       return;
     }
@@ -49,7 +49,7 @@ export default class Players {
   };
 
   static getPlayer = async () => {
-    const url = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${this.idGame}/scores/`;
+    const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/0FZjRBVl8F9k1xZJg0ir/scores/';
     const response = await fetch(url);
     const data = await response.json();
     playerList.innerHTML = '';
