@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://fherrerao.github.io/To-Do-lists/dist/)
+[Live Demo Link](https://fherrerao.github.io/Leaderboard/dist/)
 
 ## Getting Started
 
