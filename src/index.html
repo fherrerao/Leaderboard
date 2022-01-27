@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet" />
 
-    <title>Leaderboard</title>
-  </head>
-  <body>
-    <main class="container">
-      <h1>Leaderboard</h1>
-      <div class="section-container">
-        <section>
-          <div class="recent-scores">
-            <h2>Recent scores</h2>
-            <button class="btn-submit">Refresh</button>
-          </div>
-          <ul class="leaderboard">
-            <li class="scores">Name: 23</li>
-          </ul>
-        </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet" />
 
-        <section>
-          <h2>Add your score</h2>
-          <form class="form" action="#">
-            <input class="inputs" type="text" placeholder="Your name" />
-            <input class="inputs" type="text" placeholder="Your score" />
-            <button class="btn-submit" type="submit">Submit</button>
-          </form>
-        </section>
-      </div>
-    </main>
-  </body>
+  <title>Leaderboard</title>
+</head>
+
+<body>
+  <main class="container">
+    <h1>Leaderboard</h1>
+    <div class="section-container">
+      <section>
+        <div class="recent-scores">
+          <h2>Recent scores</h2>
+          <button id="refresh" class="btn-submit">Refresh</button>
+        </div>
+        <ul class="leaderboard">
+          <li class="scores">Empty list, please add a new score</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Add your score</h2>
+        <form class="form" action="#">
+          <input id="input-name" class="inputs" type="text" placeholder="Your name" />
+          <input id="input-score" class="inputs" type="text" placeholder="Your score" />
+          <button id="btn-submit" class="btn-submit" type="submit">Submit</button>
+        </form>
+      </section>
+    </div>
+  </main>
+</body>
+
 </html>
