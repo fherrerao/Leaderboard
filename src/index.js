@@ -1,10 +1,11 @@
-import _ from "lodash"; // Optional. You can remove it if you don't need it
-import "./style.css";
+import './style.css';
+import Players from './functions.js';
 
-// Remove this code snippet and put your own, since this is only an example
-const component = () => {
-  const element = document.createElement("div");
-  element.innerHTML = _.join(["This is a", "template"], " ");
-  return element;
-};
-document.body.appendChild(component());
+const btnRefresh = document.querySelector('#refresh');
+btnRefresh.addEventListener('click', Players.getPlayer);
+
+const btnSubmit = document.querySelector('#btn-submit');
+btnSubmit.addEventListener('click', (e) => {
+  e.preventDefault();
+  Players.addNewPlayer();
+});
