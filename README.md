@@ -2,7 +2,7 @@
 
 # Leaderboard
 
-> In this project, I do the structure of the Leaderboard.
+> The leaderboard is a project built with Vanilla JavaScript, HTML5, and CSS3, the user can fill in their name and their score, and it will be displayed in the left table!
 
 ![leaderboard](https://user-images.githubusercontent.com/91301423/151078976-21789102-5dc8-4b3e-899e-96b0f598f172.png)
 
